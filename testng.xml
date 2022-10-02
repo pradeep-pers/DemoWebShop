@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+    <listener class-name="com.WebShop.Utilities.Reporting"/>
+     </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.WebShop.TestCases.TC6_DataProviderLogin"/>
+      <class name="com.WebShop.TestCases.TC11_ProductSelectioPn"/>
+      <class name="com.WebShop.TestCases.TC8_InvalidLogin"/>
+      <class name="com.WebShop.TestCases.TC7_ProductSelection"/>
+      <class name="com.WebShop.TestCases.TC5_RegisterPageFieldValidation"/>
+      <class name="com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel"/>
+      <class name="com.WebShop.TestCases.TC2_LoginValidation"/>
+      <class name="com.WebShop.TestCases.TC1_LOGIN"/>
+      <class name="com.WebShop.TestCases.TC3_LoginHeaderValidation"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
