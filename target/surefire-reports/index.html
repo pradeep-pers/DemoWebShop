@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">16 methods, 1 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC14_HomePageBrokenlinks" hash-for-method="HomePageLinks">HomePageLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC6_DataProviderLogin" hash-for-method="DataProviderLogin(test@kuna.com, test@123)">DataProviderLogin(test@kuna.com, test@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC6_DataProviderLogin" hash-for-method="DataProviderLogin(test@champi.com, test@123)">DataProviderLogin(test@champi.com, test@123)</a> <!-- method navigator-link -->
@@ -119,12 +128,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel" hash-for-method="DemoLogin(test@champi.com, test@123)">DemoLogin(test@champi.com, test@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel" hash-for-method="DemoLogin(test@kuna.com, test@123)">DemoLogin(test@kuna.com, test@123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC6_DataProviderLogin" hash-for-method="DataProviderLogin(test@kuna.com, test@123)">DataProviderLogin(test@kuna.com, test@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -135,6 +139,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel" hash-for-method="DemoLogin(BOPA@BHAI.com, test@123)">DemoLogin(BOPA@BHAI.com, test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel" hash-for-method="DemoLogin(test@champi.com, test@123)">DemoLogin(test@champi.com, test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel" hash-for-method="DemoLogin(test@kuna.com, test@123)">DemoLogin(test@kuna.com, test@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -172,6 +186,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC5_RegisterPageFieldValidation" hash-for-method="RegisterPageFieldValidation">RegisterPageFieldValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.WebShop.TestCases.TC13_SearchPageValidation" hash-for-method="SearchPageValidation">SearchPageValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -184,6 +203,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.WebShop.TestCases.TC14_HomePageBrokenlinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageLinks">
+                  </a> <!-- HomePageLinks -->
+                  <span class="method-name">HomePageLinks</span>
+                  <div class="stack-trace">java.net.MalformedURLException: no protocol: 
+	at java.net.URL.&lt;init&gt;(URL.java:610)
+	at java.net.URL.&lt;init&gt;(URL.java:507)
+	at java.net.URL.&lt;init&gt;(URL.java:456)
+	at PageObjects.HomePagelinks.HomePageLinks(HomePagelinks.java:35)
+	at com.WebShop.TestCases.TC14_HomePageBrokenlinks.HomePageLinks(TC14_HomePageBrokenlinks.java:20)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -236,6 +279,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.WebShop.TestCases.TC13_SearchPageValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchPageValidation">
+                  </a> <!-- SearchPageValidation -->
+                  <span class="method-name">SearchPageValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.WebShop.TestCases.TC3_LoginHeaderValidation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -270,19 +328,49 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.WebShop.TestCases.TC6_DataProviderLogin</span>
+              <span class="class-name">com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="DataProviderLogin(test@kuna.com, test@123)">
-                  </a> <!-- DataProviderLogin(test@kuna.com, test@123) -->
-                  <span class="method-name">DataProviderLogin</span>
-                  <span class="parameters">(test@kuna.com, test@123)</span>
-                  <em>
-(User Login using DataProvider)                  </em>
+                  <a name="DemoLogin(gabu@tabu.com, test@123)">
+                  </a> <!-- DemoLogin(gabu@tabu.com, test@123) -->
+                  <span class="method-name">DemoLogin</span>
+                  <span class="parameters">(gabu@tabu.com, test@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DemoLogin(BOPA@BHAI.com, test@123)">
+                  </a> <!-- DemoLogin(BOPA@BHAI.com, test@123) -->
+                  <span class="method-name">DemoLogin</span>
+                  <span class="parameters">(BOPA@BHAI.com, test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DemoLogin(test@champi.com, test@123)">
+                  </a> <!-- DemoLogin(test@champi.com, test@123) -->
+                  <span class="method-name">DemoLogin</span>
+                  <span class="parameters">(test@champi.com, test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DemoLogin(test@kuna.com, test@123)">
+                  </a> <!-- DemoLogin(test@kuna.com, test@123) -->
+                  <span class="method-name">DemoLogin</span>
+                  <span class="parameters">(test@kuna.com, test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WebShop.TestCases.TC6_DataProviderLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="DataProviderLogin(test@champi.com, test@123)">
@@ -303,44 +391,14 @@
 (User Login using DataProvider)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="DemoLogin(test@champi.com, test@123)">
-                  </a> <!-- DemoLogin(test@champi.com, test@123) -->
-                  <span class="method-name">DemoLogin</span>
-                  <span class="parameters">(test@champi.com, test@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="DemoLogin(test@kuna.com, test@123)">
-                  </a> <!-- DemoLogin(test@kuna.com, test@123) -->
-                  <span class="method-name">DemoLogin</span>
+                  <a name="DataProviderLogin(test@kuna.com, test@123)">
+                  </a> <!-- DataProviderLogin(test@kuna.com, test@123) -->
+                  <span class="method-name">DataProviderLogin</span>
                   <span class="parameters">(test@kuna.com, test@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="DemoLogin(gabu@tabu.com, test@123)">
-                  </a> <!-- DemoLogin(gabu@tabu.com, test@123) -->
-                  <span class="method-name">DemoLogin</span>
-                  <span class="parameters">(gabu@tabu.com, test@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="DemoLogin(BOPA@BHAI.com, test@123)">
-                  </a> <!-- DemoLogin(BOPA@BHAI.com, test@123) -->
-                  <span class="method-name">DemoLogin</span>
-                  <span class="parameters">(BOPA@BHAI.com, test@123)</span>
+                  <em>
+(User Login using DataProvider)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -403,6 +461,8 @@
       &lt;class name=&quot;com.WebShop.TestCases.TC2_LoginValidation&quot;/&gt;
       &lt;class name=&quot;com.WebShop.TestCases.TC1_LOGIN&quot;/&gt;
       &lt;class name=&quot;com.WebShop.TestCases.TC3_LoginHeaderValidation&quot;/&gt;
+      &lt;class name=&quot;com.WebShop.TestCases.TC13_SearchPageValidation&quot;/&gt;
+      &lt;class name=&quot;com.WebShop.TestCases.TC14_HomePageBrokenlinks&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -416,7 +476,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (9 classes)</span>
+                <span class="test-name">Test (11 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -442,63 +502,71 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(14);
+data.addRows(16);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ProductSelection')
 data.setCell(0, 2, 'com.WebShop.TestCases.TC7_ProductSelection')
-data.setCell(0, 3, 49731);
+data.setCell(0, 3, 48885);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ProductSelectioPn')
-data.setCell(1, 2, 'com.WebShop.TestCases.TC11_ProductSelectioPn')
-data.setCell(1, 3, 13958);
+data.setCell(1, 1, 'HomePageLinks')
+data.setCell(1, 2, 'com.WebShop.TestCases.TC14_HomePageBrokenlinks')
+data.setCell(1, 3, 18870);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'DataProviderLogin')
 data.setCell(2, 2, 'com.WebShop.TestCases.TC6_DataProviderLogin')
-data.setCell(2, 3, 13750);
+data.setCell(2, 3, 15525);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'DemoLogin')
-data.setCell(3, 2, 'com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel')
-data.setCell(3, 3, 12735);
+data.setCell(3, 1, 'ProductSelectioPn')
+data.setCell(3, 2, 'com.WebShop.TestCases.TC11_ProductSelectioPn')
+data.setCell(3, 3, 14386);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'LoginValidation')
-data.setCell(4, 2, 'com.WebShop.TestCases.TC2_LoginValidation')
-data.setCell(4, 3, 10991);
+data.setCell(4, 1, 'SearchPageValidation')
+data.setCell(4, 2, 'com.WebShop.TestCases.TC13_SearchPageValidation')
+data.setCell(4, 3, 12445);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'DataProviderLogin')
-data.setCell(5, 2, 'com.WebShop.TestCases.TC6_DataProviderLogin')
-data.setCell(5, 3, 10349);
+data.setCell(5, 1, 'LoginValidation')
+data.setCell(5, 2, 'com.WebShop.TestCases.TC2_LoginValidation')
+data.setCell(5, 3, 12159);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'DemoLogin')
 data.setCell(6, 2, 'com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel')
-data.setCell(6, 3, 9725);
+data.setCell(6, 3, 11760);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'RegisterPageFieldValidation')
-data.setCell(7, 2, 'com.WebShop.TestCases.TC5_RegisterPageFieldValidation')
-data.setCell(7, 3, 9369);
+data.setCell(7, 1, 'DataProviderLogin')
+data.setCell(7, 2, 'com.WebShop.TestCases.TC6_DataProviderLogin')
+data.setCell(7, 3, 10890);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'LOGINTEST')
 data.setCell(8, 2, 'com.WebShop.TestCases.TC1_LOGIN')
-data.setCell(8, 3, 8965);
+data.setCell(8, 3, 10690);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'DemoLogin')
-data.setCell(9, 2, 'com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel')
-data.setCell(9, 3, 8805);
+data.setCell(9, 1, 'InvalidLogin')
+data.setCell(9, 2, 'com.WebShop.TestCases.TC8_InvalidLogin')
+data.setCell(9, 3, 10086);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'LoginHeaderValidation')
-data.setCell(10, 2, 'com.WebShop.TestCases.TC3_LoginHeaderValidation')
-data.setCell(10, 3, 8617);
+data.setCell(10, 1, 'DemoLogin')
+data.setCell(10, 2, 'com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel')
+data.setCell(10, 3, 10047);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'DemoLogin')
-data.setCell(11, 2, 'com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel')
-data.setCell(11, 3, 8356);
+data.setCell(11, 1, 'LoginHeaderValidation')
+data.setCell(11, 2, 'com.WebShop.TestCases.TC3_LoginHeaderValidation')
+data.setCell(11, 3, 9848);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'DataProviderLogin')
-data.setCell(12, 2, 'com.WebShop.TestCases.TC6_DataProviderLogin')
-data.setCell(12, 3, 8007);
+data.setCell(12, 1, 'DemoLogin')
+data.setCell(12, 2, 'com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel')
+data.setCell(12, 3, 8609);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'InvalidLogin')
-data.setCell(13, 2, 'com.WebShop.TestCases.TC8_InvalidLogin')
-data.setCell(13, 3, 6990);
+data.setCell(13, 1, 'DemoLogin')
+data.setCell(13, 2, 'com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel')
+data.setCell(13, 3, 8070);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'DataProviderLogin')
+data.setCell(14, 2, 'com.WebShop.TestCases.TC6_DataProviderLogin')
+data.setCell(14, 3, 7844);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'RegisterPageFieldValidation')
+data.setCell(15, 2, 'com.WebShop.TestCases.TC5_RegisterPageFieldValidation')
+data.setCell(15, 3, 6939);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -536,151 +604,183 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">DataProviderLogin(test@kuna.com, test@123)</span>
-                <span class="method-start">3928 ms</span>
+                <span class="method-start">11501 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DataProviderLogin(test@champi.com, test@123)</span>
-                <span class="method-start">17700 ms</span>
+                <span class="method-start">27057 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DataProviderLogin(sanju@khudi.com, test@123)</span>
-                <span class="method-start">25709 ms</span>
+                <span class="method-start">34903 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">36060 ms</span>
+                <span class="method-start">45795 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.WebShop.TestCases.TC11_ProductSelectioPn</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">38088 ms</span>
+                <span class="method-start">50125 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">ProductSelectioPn</span>
-                <span class="method-start">41983 ms</span>
+                <span class="method-start">52771 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">55942 ms</span>
+                <span class="method-start">67158 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.WebShop.TestCases.TC8_InvalidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">56267 ms</span>
+                <span class="method-start">67522 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">InvalidLogin</span>
-                <span class="method-start">58867 ms</span>
+                <span class="method-start">70566 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">65858 ms</span>
+                <span class="method-start">80653 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.WebShop.TestCases.TC7_ProductSelection</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">66320 ms</span>
+                <span class="method-start">81217 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">ProductSelection</span>
-                <span class="method-start">68695 ms</span>
+                <span class="method-start">83760 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">118427 ms</span>
+                <span class="method-start">132646 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.WebShop.TestCases.TC5_RegisterPageFieldValidation</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">118637 ms</span>
+                <span class="method-start">133160 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">RegisterPageFieldValidation</span>
-                <span class="method-start">122310 ms</span>
+                <span class="method-start">135651 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">131680 ms</span>
+                <span class="method-start">142591 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.WebShop.TestCases.TC12_DemoShopLoginUsingExcel</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">132264 ms</span>
+                <span class="method-start">142772 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">DemoLogin(test@kuna.com, test@123)</span>
-                <span class="method-start">139394 ms</span>
+                <span class="method-start">145757 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DemoLogin(test@champi.com, test@123)</span>
-                <span class="method-start">152130 ms</span>
+                <span class="method-start">157518 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DemoLogin(gabu@tabu.com, test@123)</span>
-                <span class="method-start">160487 ms</span>
+                <span class="method-start">165588 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DemoLogin(BOPA@BHAI.com, test@123)</span>
-                <span class="method-start">170214 ms</span>
+                <span class="method-start">174203 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">179021 ms</span>
+                <span class="method-start">184251 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.WebShop.TestCases.TC2_LoginValidation</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">179111 ms</span>
+                <span class="method-start">184888 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginValidation</span>
-                <span class="method-start">181745 ms</span>
+                <span class="method-start">187258 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">192738 ms</span>
+                <span class="method-start">199418 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.WebShop.TestCases.TC1_LOGIN</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">192933 ms</span>
+                <span class="method-start">199792 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LOGINTEST</span>
-                <span class="method-start">194841 ms</span>
+                <span class="method-start">202264 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">203807 ms</span>
+                <span class="method-start">212955 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.WebShop.TestCases.TC3_LoginHeaderValidation</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">204117 ms</span>
+                <span class="method-start">213146 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginHeaderValidation</span>
-                <span class="method-start">206138 ms</span>
+                <span class="method-start">215723 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">214756 ms</span>
+                <span class="method-start">225572 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebShop.TestCases.TC13_SearchPageValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">226006 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SearchPageValidation</span>
+                <span class="method-start">228389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">240835 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebShop.TestCases.TC14_HomePageBrokenlinks</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">241246 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePageLinks</span>
+                <span class="method-start">243124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">262001 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

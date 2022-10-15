@@ -9,6 +9,7 @@ PageObjects\ShoppingCartDetails.class
 PageObjects\LoginPageHeader.class
 PracticeCODE\Test1.class
 PageObjects\AddressDetails.class
+PageObjects\HomePagelinks.class
 PageObjects\LoginPage.class
 PageObjects\Register.class
 PageObjects\ProducTSelection.class

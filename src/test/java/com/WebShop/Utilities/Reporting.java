@@ -25,6 +25,7 @@ package com.WebShop.Utilities;
 		public ExtentHtmlReporter htmlReporter;
 		public ExtentReports extent;
 		public ExtentTest logger;
+ 
 		
 			
 		public void onStart(ITestContext testContext)
@@ -86,6 +87,8 @@ package com.WebShop.Utilities;
 		{
 			extent.flush();
 		}
+		
+		
 	}
 
 

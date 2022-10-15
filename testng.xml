@@ -15,6 +15,8 @@
       <class name="com.WebShop.TestCases.TC2_LoginValidation"/>
       <class name="com.WebShop.TestCases.TC1_LOGIN"/>
       <class name="com.WebShop.TestCases.TC3_LoginHeaderValidation"/>
+      <class name="com.WebShop.TestCases.TC13_SearchPageValidation"/>
+      <class name="com.WebShop.TestCases.TC14_HomePageBrokenlinks"/>
      
     </classes>
   </test> <!-- Test -->
