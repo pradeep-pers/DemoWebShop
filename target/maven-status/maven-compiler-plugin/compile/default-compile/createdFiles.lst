@@ -1,4 +1,5 @@
 PageObjects\UserRegister.class
+PageObjects\SearchValidation.class
 PracticeCODE\Test.class
 PageObjects\RegisterFieldValidation.class
 PageObjects\LoginPageValidation.class

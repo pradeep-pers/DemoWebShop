@@ -1,153 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="128613" started-at="2022-10-02T11:29:10 IST" finished-at="2022-10-02T11:31:19 IST">
+  <suite name="Default suite" duration-ms="30005" started-at="2022-10-15T08:28:35 IST" finished-at="2022-10-15T08:29:05 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="128613" started-at="2022-10-02T11:29:10 IST" finished-at="2022-10-02T11:31:19 IST">
-      <class name="com.WebShop.TestCases.TC7_ProductSelection">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.WebShop.TestCases.TC7_ProductSelection@74ad1f1f]" name="Setup" is-config="true" duration-ms="1852" started-at="2022-10-02T11:30:28 IST" finished-at="2022-10-02T11:30:30 IST">
+    <test name="Default test" duration-ms="30005" started-at="2022-10-15T08:28:35 IST" finished-at="2022-10-15T08:29:05 IST">
+      <class name="com.WebShop.TestCases.TC14_HomePageBrokenlinks">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.WebShop.TestCases.TC14_HomePageBrokenlinks@77ec78b9]" name="Setup" is-config="true" duration-ms="7091" started-at="2022-10-15T08:28:35 IST" finished-at="2022-10-15T08:28:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="ProductSelection()[pri:0, instance:com.WebShop.TestCases.TC7_ProductSelection@74ad1f1f]" name="ProductSelection" duration-ms="40357" started-at="2022-10-02T11:30:30 IST" description=" Test Senario-1:Gabu Is buying From DemoWebshop- By Manuallly" finished-at="2022-10-02T11:31:11 IST">
+        <test-method status="FAIL" signature="HomePageLinks()[pri:0, instance:com.WebShop.TestCases.TC14_HomePageBrokenlinks@77ec78b9]" name="HomePageLinks" duration-ms="22658" started-at="2022-10-15T08:28:42 IST" finished-at="2022-10-15T08:29:04 IST">
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[no protocol: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: no protocol: 
+at java.net.URL.<init>(URL.java:610)
+at java.net.URL.<init>(URL.java:507)
+at java.net.URL.<init>(URL.java:456)
+at PageObjects.HomePagelinks.HomePageLinks(HomePagelinks.java:35)
+at com.WebShop.TestCases.TC14_HomePageBrokenlinks.HomePageLinks(TC14_HomePageBrokenlinks.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProductSelection -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.WebShop.TestCases.TC7_ProductSelection@74ad1f1f]" name="TearDown" is-config="true" duration-ms="95" started-at="2022-10-02T11:31:11 IST" finished-at="2022-10-02T11:31:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.WebShop.TestCases.TC7_ProductSelection -->
-      <class name="com.WebShop.TestCases.TC1_LOGIN">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.WebShop.TestCases.TC1_LOGIN@6121c9d6]" name="Setup" is-config="true" duration-ms="3727" started-at="2022-10-02T11:29:11 IST" finished-at="2022-10-02T11:29:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LOGINTEST()[pri:0, instance:com.WebShop.TestCases.TC1_LOGIN@6121c9d6]" name="LOGINTEST" duration-ms="11233" started-at="2022-10-02T11:29:15 IST" description="User Login To Demo WebShop Application" finished-at="2022-10-02T11:29:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LOGINTEST -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.WebShop.TestCases.TC1_LOGIN@6121c9d6]" name="TearDown" is-config="true" duration-ms="186" started-at="2022-10-02T11:29:26 IST" finished-at="2022-10-02T11:29:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.WebShop.TestCases.TC1_LOGIN -->
-      <class name="com.WebShop.TestCases.TC6_DataProviderLogin">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.WebShop.TestCases.TC6_DataProviderLogin@491cc5c9]" name="Setup" is-config="true" duration-ms="1799" started-at="2022-10-02T11:29:57 IST" finished-at="2022-10-02T11:29:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="DataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:com.WebShop.TestCases.TC6_DataProviderLogin@491cc5c9]" name="DataProviderLogin" duration-ms="12703" started-at="2022-10-02T11:29:59 IST" description="User Login using DataProvider" data-provider="data-provider" finished-at="2022-10-02T11:30:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@kuna.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataProviderLogin -->
-        <test-method status="PASS" signature="DataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:com.WebShop.TestCases.TC6_DataProviderLogin@491cc5c9]" name="DataProviderLogin" duration-ms="8027" started-at="2022-10-02T11:30:12 IST" description="User Login using DataProvider" data-provider="data-provider" finished-at="2022-10-02T11:30:20 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@champi.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataProviderLogin -->
-        <test-method status="PASS" signature="DataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:com.WebShop.TestCases.TC6_DataProviderLogin@491cc5c9]" name="DataProviderLogin" duration-ms="8272" started-at="2022-10-02T11:30:20 IST" description="User Login using DataProvider" data-provider="data-provider" finished-at="2022-10-02T11:30:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sanju@khudi.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataProviderLogin -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.WebShop.TestCases.TC6_DataProviderLogin@491cc5c9]" name="TearDown" is-config="true" duration-ms="86" started-at="2022-10-02T11:30:28 IST" finished-at="2022-10-02T11:30:28 IST">
+        </test-method> <!-- HomePageLinks -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.WebShop.TestCases.TC14_HomePageBrokenlinks@77ec78b9]" name="TearDown" is-config="true" duration-ms="141" started-at="2022-10-15T08:29:04 IST" finished-at="2022-10-15T08:29:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- com.WebShop.TestCases.TC6_DataProviderLogin -->
-      <class name="com.WebShop.TestCases.TC5_RegisterPageFieldValidation">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.WebShop.TestCases.TC5_RegisterPageFieldValidation@1b26f7b2]" name="Setup" is-config="true" duration-ms="1882" started-at="2022-10-02T11:29:50 IST" finished-at="2022-10-02T11:29:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="RegisterPageFieldValidation()[pri:0, instance:com.WebShop.TestCases.TC5_RegisterPageFieldValidation@1b26f7b2]" name="RegisterPageFieldValidation" duration-ms="5105" started-at="2022-10-02T11:29:52 IST" description="Register new User Page Validation" finished-at="2022-10-02T11:29:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterPageFieldValidation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.WebShop.TestCases.TC5_RegisterPageFieldValidation@1b26f7b2]" name="TearDown" is-config="true" duration-ms="291" started-at="2022-10-02T11:29:57 IST" finished-at="2022-10-02T11:29:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.WebShop.TestCases.TC5_RegisterPageFieldValidation -->
-      <class name="com.WebShop.TestCases.TC8_InvalidLogin">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.WebShop.TestCases.TC8_InvalidLogin@6a1aab78]" name="Setup" is-config="true" duration-ms="1876" started-at="2022-10-02T11:31:11 IST" finished-at="2022-10-02T11:31:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="InvalidLogin()[pri:0, instance:com.WebShop.TestCases.TC8_InvalidLogin@6a1aab78]" name="InvalidLogin" duration-ms="6261" started-at="2022-10-02T11:31:13 IST" description="Invalid Login Credentials" finished-at="2022-10-02T11:31:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidLogin -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.WebShop.TestCases.TC8_InvalidLogin@6a1aab78]" name="TearDown" is-config="true" duration-ms="266" started-at="2022-10-02T11:31:19 IST" finished-at="2022-10-02T11:31:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.WebShop.TestCases.TC8_InvalidLogin -->
-      <class name="com.WebShop.TestCases.TC2_LoginValidation">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.WebShop.TestCases.TC2_LoginValidation@11758f2a]" name="Setup" is-config="true" duration-ms="1835" started-at="2022-10-02T11:29:26 IST" finished-at="2022-10-02T11:29:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginValidation()[pri:0, instance:com.WebShop.TestCases.TC2_LoginValidation@11758f2a]" name="LoginValidation" duration-ms="11668" started-at="2022-10-02T11:29:28 IST" description="Login Validation" finished-at="2022-10-02T11:29:39 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginValidation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.WebShop.TestCases.TC2_LoginValidation@11758f2a]" name="TearDown" is-config="true" duration-ms="117" started-at="2022-10-02T11:29:39 IST" finished-at="2022-10-02T11:29:40 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.WebShop.TestCases.TC2_LoginValidation -->
-      <class name="com.WebShop.TestCases.TC3_LoginHeaderValidation">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.WebShop.TestCases.TC3_LoginHeaderValidation@e720b71]" name="Setup" is-config="true" duration-ms="1798" started-at="2022-10-02T11:29:40 IST" finished-at="2022-10-02T11:29:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginHeaderValidation()[pri:0, instance:com.WebShop.TestCases.TC3_LoginHeaderValidation@e720b71]" name="LoginHeaderValidation" duration-ms="8609" started-at="2022-10-02T11:29:41 IST" description="Header Validation" finished-at="2022-10-02T11:29:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginHeaderValidation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.WebShop.TestCases.TC3_LoginHeaderValidation@e720b71]" name="TearDown" is-config="true" duration-ms="125" started-at="2022-10-02T11:29:50 IST" finished-at="2022-10-02T11:29:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.WebShop.TestCases.TC3_LoginHeaderValidation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.WebShop.TestCases.TC14_HomePageBrokenlinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

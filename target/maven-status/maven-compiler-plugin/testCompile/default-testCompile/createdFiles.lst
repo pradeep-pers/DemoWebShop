@@ -12,4 +12,5 @@ NewTest.class
 com\WebShop\TestCases\BaseClass.class
 com\WebShop\TestCases\TC5_RegisterPageFieldValidation.class
 com\WebShop\Utilities\XLutils.class
+com\WebShop\TestCases\TC13_SearchPageValidation.class
 com\WebShop\TestCases\TC2_LoginValidation.class

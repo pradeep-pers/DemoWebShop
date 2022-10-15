@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebShop.TestCases.TC9_UserRegistration">
+      <class name="com.WebShop.TestCases.TC14_HomePageBrokenlinks">
         <methods>
           <include name="Setup"/>
-          <include name="UserRegistration"/>
+          <include name="HomePageLinks"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- com.WebShop.TestCases.TC9_UserRegistration -->
+      </class> <!-- com.WebShop.TestCases.TC14_HomePageBrokenlinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
